@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>사주수첩 — 개인정보처리방침</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
+      line-height: 1.7;
+      color: #333;
+      background: #fafafa;
+      padding: 20px;
+    }
+    .container { max-width: 720px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 12px; }
+    h1 { font-size: 24px; margin-bottom: 8px; color: #111; }
+    h2 { font-size: 18px; margin-top: 32px; margin-bottom: 12px; color: #222; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+    p, li { font-size: 15px; margin-bottom: 8px; }
+    ul { padding-left: 20px; }
+    .meta { color: #888; font-size: 13px; margin-bottom: 24px; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+    th, td { border: 1px solid #ddd; padding: 10px 12px; font-size: 14px; text-align: left; }
+    th { background: #f5f5f5; font-weight: 600; }
+    a { color: #4a6cf7; }
+    .nav { margin-top: 32px; padding-top: 16px; border-top: 1px solid #eee; font-size: 14px; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+<h1>개인정보처리방침</h1>
+<p class="meta">시행일: 2026년 3월 16일 | 앱 이름: 사주수첩</p>
+
+<p>주식회사 바이코드(이하 "회사")는 「개인정보 보호법」에 따라 이용자의 개인정보를 보호하고, 이와 관련한 고충을 신속하게 처리하기 위해 다음과 같이 개인정보 처리방침을 수립·공개합니다.</p>
+
+<h2>1. 수집하는 개인정보 항목</h2>
+
+<table>
+  <tr>
+    <th>수집 시점</th>
+    <th>수집 항목</th>
+    <th>수집 목적</th>
+  </tr>
+  <tr>
+    <td>소셜 로그인 시</td>
+    <td>이메일 주소, 소셜 로그인 식별자(Apple/Kakao/Google)</td>
+    <td>회원 식별 및 인증, 클라우드 백업 연동</td>
+  </tr>
+  <tr>
+    <td>앱 사용 시</td>
+    <td>사용자가 직접 입력한 고객 사주 정보(생년월일시, 이름, 메모 등)</td>
+    <td>사주 계산 및 고객 관리(CRM) 기능 제공</td>
+  </tr>
+  <tr>
+    <td>클라우드 백업 시</td>
+    <td>암호화된 로컬 데이터베이스 사본</td>
+    <td>기기 분실·교체 시 데이터 복원</td>
+  </tr>
+</table>
+
+<h2>2. 개인정보의 처리 목적</h2>
+<ul>
+  <li><strong>회원 관리:</strong> 소셜 로그인을 통한 본인 확인 및 계정 관리</li>
+  <li><strong>서비스 제공:</strong> 사주 계산, 고객 프로필 저장, 상담 이력 관리</li>
+  <li><strong>데이터 보호:</strong> 클라우드 백업 및 복원을 통한 데이터 안전 보장</li>
+  <li><strong>구독 관리:</strong> PRO 구독 상태 확인 및 유지</li>
+</ul>
+
+<h2>3. 개인정보의 보유 및 이용 기간</h2>
+<ul>
+  <li>회원 탈퇴 시까지 보유하며, 탈퇴 요청 시 지체 없이 파기합니다.</li>
+  <li>클라우드 백업 데이터는 마지막 백업본 1건만 보관하며, 계정 삭제 시 함께 삭제됩니다.</li>
+  <li>관련 법령에 의한 보존 의무가 있는 경우 해당 기간 동안 보관합니다.</li>
+</ul>
+
+<h2>4. 개인정보의 제3자 제공</h2>
+<p>회사는 이용자의 개인정보를 제3자에게 제공하지 않습니다. 다만, 다음의 경우는 예외로 합니다:</p>
+<ul>
+  <li>이용자가 사전에 동의한 경우</li>
+  <li>법령의 규정에 의한 경우</li>
+</ul>
+
+<h2>5. 개인정보 처리 위탁</h2>
+
+<table>
+  <tr>
+    <th>수탁업체</th>
+    <th>위탁 업무</th>
+    <th>보관 위치</th>
+  </tr>
+  <tr>
+    <td>Supabase Inc.</td>
+    <td>사용자 인증(Auth) 및 클라우드 백업 파일 저장(Storage)</td>
+    <td>AWS 서울 리전(ap-northeast-2) 또는 Supabase 지정 리전</td>
+  </tr>
+  <tr>
+    <td>Apple Inc. / Kakao Corp. / Google LLC</td>
+    <td>소셜 로그인 인증 중개</td>
+    <td>각 사업자의 글로벌 인프라</td>
+  </tr>
+  <tr>
+    <td>RevenueCat Inc.</td>
+    <td>인앱 구독 결제 관리</td>
+    <td>미국</td>
+  </tr>
+</table>
+
+<h2>6. 개인정보의 암호화 및 안전성 확보 조치</h2>
+<ul>
+  <li><strong>로컬 저장:</strong> 사용자 기기 내 SQLite 데이터베이스에 저장 (기기 자체 보안에 의존)</li>
+  <li><strong>클라우드 백업:</strong> AES-256-CBC 암호화 후 전송 및 저장</li>
+  <li><strong>통신 보안:</strong> 모든 서버 통신은 HTTPS(TLS 1.2 이상) 사용</li>
+  <li><strong>접근 제어:</strong> Supabase Row Level Security(RLS)를 통해 인증된 사용자만 자신의 데이터에 접근 가능</li>
+</ul>
+
+<h2>7. 이용자의 권리와 행사 방법</h2>
+<p>이용자는 언제든지 다음 권리를 행사할 수 있습니다:</p>
+<ul>
+  <li><strong>열람 요청:</strong> 본인의 개인정보 처리 현황 열람</li>
+  <li><strong>정정·삭제 요청:</strong> 부정확한 정보의 정정 또는 삭제</li>
+  <li><strong>처리 정지 요청:</strong> 개인정보 처리의 정지</li>
+  <li><strong>계정 삭제:</strong> 앱 내 설정 → 로그아웃 또는 아래 이메일로 삭제 요청</li>
+</ul>
+<p>권리 행사는 아래 연락처로 이메일을 보내주시면 지체 없이 처리합니다.</p>
+
+<h2>8. 개인정보 보호책임자</h2>
+
+<table>
+  <tr>
+    <th>항목</th>
+    <th>내용</th>
+  </tr>
+  <tr>
+    <td>회사명</td>
+    <td>주식회사 바이코드</td>
+  </tr>
+  <tr>
+    <td>연락처</td>
+    <td><a href="mailto:sam@bycode.kr">sam@bycode.kr</a></td>
+  </tr>
+</table>
+
+<h2>9. 개인정보처리방침의 변경</h2>
+<p>이 개인정보처리방침은 법령, 정책 또는 서비스 변경에 따라 수정될 수 있으며, 변경 시 앱 내 공지 또는 이 페이지를 통해 안내합니다.</p>
+
+<div class="nav">
+  <a href="terms.html">이용약관 보기</a>
+</div>
+
+</div>
+</body>
+</html>
